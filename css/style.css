@@ -26,6 +26,12 @@
 	display: inline-block;
 	margin-right: 16px;
 }
+.bio ul li:hover{
+	background-color: #f7dc4f;
+}
+.bio ul li a:hover{
+	color: #015761;
+}
 .bio ul li a{
 	text-decoration: none;
 	font-size: 12px;
@@ -58,7 +64,7 @@
 }
 .about-text{
 	text-align: center;
-    padding: 80px 200px 50px 200px;
+    padding: 80px 200px 80px 200px;
     background-color: #f1f0f0;
 }
 .about-text h1{
@@ -66,6 +72,16 @@
 }
 .about-text p{
 	color: #848585;
+}
+.about-text button{
+	background-color: #f7dc4f;
+	color: #146160;
+	height: 50px;
+	width: 200px;
+	border-radius: 5px;
+	font-size: 14px;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
 }
 .showreel{
 	padding: 40px 40px;
